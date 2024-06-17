@@ -10,6 +10,7 @@
 - react-countup
 - npm install swiper ( slider )
 - poperjs/core
+- icons : https://icofont.com/
 
 
 # Reference Links

@@ -1,12 +1,17 @@
+import { Outlet } from 'react-router-dom'
 import './App.css'
+import Home from './home/Home'
+import NavItems from './components/NavItems'
 
 
 function App() {
 
   return (
     <>
-     <p className='text-primary text-center m-5'> React Eshop </p>
-     </>
+    <NavItems />
+    <Outlet />
+  </>
+     
     
   )
 }
