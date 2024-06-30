@@ -2,6 +2,9 @@ import { Outlet } from 'react-router-dom'
 import './App.css'
 import Home from './home/Home'
 import NavItems from './components/NavItems'
+import Footer from './components/Footer'
+import Container from '@mui/material/Container';
+
 
 
 function App() {
@@ -9,7 +12,13 @@ function App() {
   return (
     <>
     <NavItems />
+    
+    
+    <div className='min-vh-100'>
     <Outlet />
+    </div>
+
+    <Footer />
   </>
      
     
